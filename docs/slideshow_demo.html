@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript Slideshow Demo</title>
+    <link rel="stylesheet" href="slideshow/slideshow.css" />
+    <script type="text/javascript" src="slideshow/slideshow.js"></script>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #353535;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            initSlideShow("./car.json", "ss_ui");
+            initSlideShow("./house.json", "ss_ui_2");
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Javascript Slideshow Demo</h1>
+    <div style="width:300px; padding-bottom:10px">
+        <div id="ss_ui"></div>
+    </div>
+    <div style="width:500px; padding-bottom:10px">
+        <div id="ss_ui_2"></div>
+    </div>
+</body>
+
+</html>

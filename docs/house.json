@@ -1,0 +1,19 @@
+{
+    "content": [
+        {
+            "header_image": "images/house1.jpg",
+            "title": "1. White House",
+            "description": "This is a white house (but not <a target='_blank' href='https://whitehouse.gov'>The White House</a>)"
+        },
+        {
+            "header_image": "images/house2.jpg",
+            "title": "2. Blue House",
+            "description": "This is a blue house"
+        },
+        {
+            "header_image": "images/house3.jpg",
+            "title": "3. Stone House",
+            "description": "This is a stone house"
+        }
+    ]
+}

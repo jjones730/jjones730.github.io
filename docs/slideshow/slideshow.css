@@ -1,0 +1,67 @@
+.card {
+    border: 1px solid #353535;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px;
+}
+
+.card div.header {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card img.header_image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: src 2s, transform 2s;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card div.nav_button {
+    position: absolute;
+    display: inline;
+    width: 10%;
+    height: 98%;
+    background-color: black;
+    vertical-align: middle;
+    color: white;
+    opacity: .3;
+    padding: 0;
+    margin: 0;
+    transition: opacity 0.5s ease-in-out;
+    user-select: none;
+}
+
+.card div.nav_button:hover {
+    opacity: .75;
+    transition: opacity 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.card p.nav_button_label {
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.card div.prev_button {
+    top: 0px;
+    left: 0px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.card div.next_button {
+    top: 0px;
+    right: 0px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.card div.title {
+    font-size: 18px;
+    font-weight: bold;
+}

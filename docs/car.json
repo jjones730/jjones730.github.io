@@ -1,0 +1,19 @@
+{
+    "content": [
+        {
+            "header_image": "images/car1.jpg",
+            "title": "1. Yellow Car",
+            "description": "This is a yellow car"
+        },
+        {
+            "header_image": "images/car2.jpg",
+            "title": "2. Red Car",
+            "description": "This is a red car"
+        },
+        {
+            "header_image": "images/car3.jpg",
+            "title": "3. White Car",
+            "description": "This is a white car"
+        }
+    ]
+}
