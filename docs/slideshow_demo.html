@@ -13,19 +13,19 @@
     </style>
     <script>
         window.onload = function () {
-            initSlideShow("./car.json", "ss_ui");
-            initSlideShow("./house.json", "ss_ui_2");
+            initSlideShow("./car.json", "car_slideshow", "500px", "300px");
+            initSlideShow("./house.json", "house_slideshow", "400px", "250px");
         }
     </script>
 </head>
 
 <body>
     <h1>Javascript Slideshow Demo</h1>
-    <div style="width:300px; padding-bottom:10px">
-        <div id="ss_ui"></div>
+    <div style="padding-bottom:10px;">
+        <div id="car_slideshow"></div>
     </div>
-    <div style="width:500px; padding-bottom:10px">
-        <div id="ss_ui_2"></div>
+    <div style="padding-bottom:10px">
+        <div id="house_slideshow"></div>
     </div>
 </body>
 

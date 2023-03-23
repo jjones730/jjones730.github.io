@@ -1,6 +1,4 @@
 .card {
-    border: 1px solid #353535;
-    border-radius: 10px;
     padding: 5px;
     margin: 0px;
 }
@@ -9,28 +7,23 @@
     position: relative;
     padding: 0px;
     margin: 0px;
-}
-
-.card img.header_image {
-    width: 100%;
-    height: auto;
+    background-size: cover;
+    background-position: center;
     border-radius: 10px;
-    transition: src 2s, transform 2s;
-    padding: 0px;
-    margin: 0px;
+    transition: background-image 0.5s ease-in-out;
 }
 
 .card div.nav_button {
     position: absolute;
     display: inline;
     width: 10%;
-    height: 98%;
+    height: 100%;
     background-color: black;
     vertical-align: middle;
     color: white;
     opacity: .3;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     transition: opacity 0.5s ease-in-out;
     user-select: none;
 }
