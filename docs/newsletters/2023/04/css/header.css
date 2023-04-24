@@ -2,25 +2,29 @@
     display: flex;
     flex-direction: row;
     padding:0px;
-    min-height:140px;
+    min-height:110px;
     max-width:1500px;
     color: white;
-    background-color:#2F5981;
+    background-color:#2F5981;    
 }
 
 .header img.profile {
     padding:8px;
-    height:140px;
+    height:110px;
     float:left;
 }
 
 .header img.kw_logo {
     padding:8px;
-    height:80px;
+    height:70px;
 }
 
 .header div {
     padding-bottom: 20px;
+}
+
+.header div.unbreakable {
+    white-space: nowrap;
 }
 
 .header div.details {
@@ -41,15 +45,12 @@
 
 .header div.highlight {
     color: orange;
-}
-
-.header div.smalltext {
-    display: inline;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .header div.byline {
-
+    font-size: 0.9em;
+    display: inline;
 }
 
 .header a {
