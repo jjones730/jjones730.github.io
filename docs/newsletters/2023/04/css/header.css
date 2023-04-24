@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    padding:0px;
+    min-height:150px;
+    max-width:1500px;
+    color: white;
+    background-color:#2F5981;
+}
+
+.header img.profile {
+    padding:8px;
+    height:140px;
+    float:left;
+}
+
+.header img.kw_logo {
+    padding:8px;
+    height:80px;
+}
+
+.header div {
+    padding-bottom: 20px;
+}
+
+.header div.details {
+    padding-top:6px;
+    flex-grow:1;
+}
+
+.header div.title {
+  padding-top: 10px;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  display: inline;
+}
+
+.header div.subtitle {
+    display: inline;
+}
+
+.header div.highlight {
+    color: orange;
+}
+
+.header div.smalltext {
+    display: inline;
+    font-size: 0.8em;
+}
+
+.header div.byline {
+
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.header a:visited {
+    color: white;
+}

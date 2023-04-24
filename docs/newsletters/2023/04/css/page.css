@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding:0;
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-content {
+    padding:0;
+    margin:0;
+    max-width:1200px;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    background-color: #D0CECE;
+    flex: 50%;
+    padding: 10px 10px 0px 10px;
+    max-width:600px;
+}
+
+.column-wide {
+    background-color: #D0CECE;
+    flex: 67%;
+    padding: 10px 10px 0px 10px;
+    max-width:800px;
+}
+
+.column-narrow {
+    background-color: #D0CECE;
+    flex: 33%;
+    padding: 10px 10px 0px 10px;
+    max-width:400px;
+}

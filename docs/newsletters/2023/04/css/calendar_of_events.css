@@ -1,0 +1,52 @@
+.calendar-of-events img {
+    width:100%;
+}
+
+.calendar-of-events h3 {
+    font-size:1.1em;
+    font-weight: bold;
+    padding: 0px 0px 3px 0px;
+    margin: 0;
+}
+
+.calendar-of-events div.content {
+    background-color: #E0E7ED;
+    padding:0px 10px 0px 10px;
+    margin-right:8px;
+}
+
+.calendar-event h2 {
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+.calendar-event p {
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+.calendar-event p.event-dates {
+    font-size:0.7em;
+    font-style:italic;
+}
+
+.calendar-event p.event-description {
+    font-size:0.8em;
+    padding:3px 0px 12px 0px;
+}
+
+.calendar-event a {
+    color: #1356E8;
+    font-size:0.8em;
+    text-decoration: none;
+}
+
+.calendar-event a:hover {
+    text-decoration: underline;
+}
+
+.calendar-event a:visited {
+    color: #1356E8;
+}
