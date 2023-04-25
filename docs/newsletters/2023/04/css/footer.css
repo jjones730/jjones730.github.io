@@ -1,16 +1,16 @@
 div.footer {
-    width:100%;
-    background-color:#D0CECE;
-    padding:5px 0px 25px 0px;
-    max-width:1500px;
+    width: 100%;
+    background-color: #D0CECE;
+    padding: 5px 0px 25px 0px;
+    max-width: 1500px;
 }
 
 div.footer p {
     display: inline-block;
     color: black;
-    margin:0px;
+    margin: 0px;
     font-size: 0.8em;
-    width:100%;
+    width: 100%;
     text-align: center;
 }
 
@@ -20,7 +20,7 @@ div.footer a {
 }
 
 div.footer a:hover {
-    color: blue;
+    color: #1356E8 !important;
     text-decoration: underline;
 }
 
